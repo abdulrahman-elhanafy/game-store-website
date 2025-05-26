@@ -19,6 +19,7 @@ body {
   height: 40px;
   padding: 8px 16px;
   border-radius: 16px;
+  font-size: medium;
 }
 .header-links a {
   color: white;
@@ -96,4 +97,65 @@ body {
 }
 .shopping-icon {
   width: 50px;
+}
+
+/* Footer began */
+
+.footer-container{
+  margin-top: 100px;
+  background-color: #021f59;
+  height: 200px;
+  border-radius: 64px 64px 0 0;
+  display: flex;
+  justify-content: center;
+}
+.footer{
+  text-align: center;
+  margin: auto;
+  max-width: 1300px;
+  color: white;
+  font-weight: 500;
+  font-size: larger;
+}
+
+/* End of footer  */
+
+/* Form Section */
+
+.form-container{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  max-width: 1300px;
+}
+.form-container form{
+  background-color: #EEEEEE;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 400px;
+  max-width: 400px;
+  padding: 20px;
+  height: 450px;
+  border-radius: 20px;
+}
+.form-container input, textarea{
+  border: 0;
+  outline: none;
+  font-size: large;
+  padding: 16px;
+  border-radius: 20px;
+}
+.form-container textarea{
+  resize: none;
+}
+.contactbtn{
+  background-color: #66bcf2;
+  color: black;
+  border: none;
+  height: 50px;
+  padding: 8px 16px;
+  border-radius: 16px;
+  font-size: large;
 }
