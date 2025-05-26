@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  background-color: #021f59;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+.logo {
+  width: 100px;
+}
+.btn {
+  background-color: #66bcf2;
+  color: black;
+  border: none;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 16px;
+}
+.header-links a {
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.header a:hover {
+  background: #3d90d9;
+  border-radius: 16px;
+}
+.btn:hover {
+  background-color: #3d90d9;
+}
+.landing-page {
+  background-color: #021f59;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 50px;
+  align-items: center;
+  color: white;
+  border-radius: 0 0 50px 50px;
+}
+.landing-page-left p {
+  padding-bottom: 10px;
+}
+.landing-page-search input {
+  border-radius: 16px;
+  border: none;
+  outline: none;
+  height: 40px;
+  padding: 0px 10px;
+}
+.landing-page-image img {
+  border-radius: 16px;
+  width: 400px;
+}
+.landing-page-left {
+  width: 450px;
+}
+.trending-container {
+  padding: 25px 50px;
+}
+.trending-container span {
+  color: #37adf7;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.trending-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.trending-header h1 {
+  margin-top: 0;
+}
+.trending-cards{
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  width: 300px;
+  background-color: #eeeeee;
+  border-radius: 16px;
+}
+.card .thumbnail{
+  border-radius: 16px 16px 0 0;
+}
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+}
+.shopping-icon {
+  width: 50px;
+}
